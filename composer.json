@@ -1,0 +1,16 @@
+{
+    "name": "denis/phpexplain",
+    "authors": [
+        {
+            "name": "Denis Davydov",
+            "email": "follenlast2@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "patterns\\state\\": "phpdesignpatterns/state"
+        }
+    }
+}
