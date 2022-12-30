@@ -27,7 +27,7 @@ final class Context
 
     public function setState($state)
     {
-//        В зависимости от текущего состояния создается новый объект состояния
+//        В зависимости от текущего состояния создается новый объект состояния и присваивается как текущее состояние контекста
         if ($state == Context::STATE_A) {
             $this->state = new ConcreteStateA($this);
         } elseif ($state == Context::STATE_B) {
