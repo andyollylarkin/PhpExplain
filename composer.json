@@ -10,7 +10,9 @@
 
     "autoload": {
         "psr-4": {
-            "patterns\\state\\": "phpdesignpatterns/state"
+            "patterns\\state\\": "phpdesignpatterns/state",
+            "patterns\\singleton\\": "phpdesignpatterns/singleton",
+            "patterns\\decorator\\": "phpdesignpatterns/decorator"
         }
     }
 }

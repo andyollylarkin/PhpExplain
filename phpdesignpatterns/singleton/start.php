@@ -1,8 +1,9 @@
 <?php
 
+require_once "../../vendor/autoload.php";
+
 use patterns\singleton\Singleton;
 
-require_once "../../vendor/autoload.php";
 
 $singleton = Singleton::getInstance();
 $singleton2 = Singleton::getInstance();
