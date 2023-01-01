@@ -2,8 +2,8 @@
 
 namespace patterns\iterator;
 
+use Directory;
 use Iterator;
-use Traversable;
 
 class DirIterator implements Iterator {
 
@@ -12,11 +12,11 @@ class DirIterator implements Iterator {
      */
     private $dir;
 
-    private $currentElement;
+    private string $currentElement;
 
-    private $path;
+    private string $path;
 
-    private $valid = true;
+    private bool $valid = true;
 
     public function __construct(string $path)
     {
@@ -32,7 +32,7 @@ class DirIterator implements Iterator {
     public function next(): void
     {
         $element = $this->dir->read();
-        if($element == false){
+        if(!$element){
             $this->valid = $element;
         } else {
             $this->currentElement = $element;
