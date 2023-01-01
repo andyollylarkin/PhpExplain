@@ -16,6 +16,7 @@
             "patterns\\singleton\\": "phpdesignpatterns/singleton",
             "patterns\\iterator\\": "phpdesignpatterns/iterator",
             "patterns\\decorator\\": "phpdesignpatterns/decorator",
+            "patterns\\nullobject\\": "phpdesignpatterns/nullobject",
             "interfaces\\": "interfaces"
         }
     }
