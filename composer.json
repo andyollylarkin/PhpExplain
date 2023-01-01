@@ -7,7 +7,9 @@
         }
     ],
     "require": {
-        "pimple/pimple": "^3.0"
+        "pimple/pimple": "^3.0",
+        "symfony/event-dispatcher": "^6.2",
+        "symfony/console": "^6.2"
     },
 
     "autoload": {
@@ -17,6 +19,8 @@
             "patterns\\iterator\\": "phpdesignpatterns/iterator",
             "patterns\\decorator\\": "phpdesignpatterns/decorator",
             "patterns\\nullobject\\": "phpdesignpatterns/nullobject",
+            "patterns\\observer\\": "phpdesignpatterns/observer",
+            "evdispatch\\": "eventdispatching",
             "interfaces\\": "interfaces"
         }
     }
