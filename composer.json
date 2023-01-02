@@ -23,6 +23,7 @@
             "patterns\\observer\\": "phpdesignpatterns/observer",
             "patterns\\adapter\\": "phpdesignpatterns/adapter",
             "patterns\\builder\\": "phpdesignpatterns/builder",
+            "patterns\\lazyload\\": "phpdesignpatterns/lazyload",
             "di\\": "di",
             "evdispatch\\": "eventdispatching",
             "interfaces\\": "interfaces"
