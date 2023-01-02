@@ -19,7 +19,11 @@
             "patterns\\iterator\\": "phpdesignpatterns/iterator",
             "patterns\\decorator\\": "phpdesignpatterns/decorator",
             "patterns\\nullobject\\": "phpdesignpatterns/nullobject",
+            "patterns\\factories\\": "phpdesignpatterns/factories",
             "patterns\\observer\\": "phpdesignpatterns/observer",
+            "patterns\\adapter\\": "phpdesignpatterns/adapter",
+            "patterns\\builder\\": "phpdesignpatterns/builder",
+            "di\\": "di",
             "evdispatch\\": "eventdispatching",
             "interfaces\\": "interfaces"
         }
